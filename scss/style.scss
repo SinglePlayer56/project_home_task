@@ -33,10 +33,10 @@
   color: #fff;
   border-radius: 2px;
   &:hover {
-    background: #ffba42dc;
+    background: #ffaf24;
   }
   &:active {
-    background: #ffba42a1;
+    background: #ffcc75;
   }
 }
 
@@ -110,7 +110,7 @@
     }
 
     .input-inform__form {
-      width: 1370px;
+      width: 1700px;
       position: absolute;
       top: 196px;
       left: 306px;
@@ -152,8 +152,8 @@
 
 .ourservices-title {
   position: relative;
-  width: 1370px;
-  height: 6100px;
+  width: 1700px;
+  height: 921px;
   .macbook__trigger {
     position: absolute;
     display: block;
@@ -170,5 +170,135 @@
         border: 3px solid #1ca8dd;
       }
     }
+  }
+  .ourserveces-title__text {
+    position: absolute;
+    top: 201px;
+    left: 667px;
+    width: 370px;
+    height: 50px;
+    text-align: center;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    .ourserveces-title__text__p1 {
+      font-size: 30px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: -0.025em;
+      margin: 0 0 5px 0;
+    }
+    .ourserveces-title__text__p2 {
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+
+  .ourserveces-title__list {
+    position: absolute;
+    top: 343px;
+    left: 266px;
+    width: 1700px;
+    height: 921px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    & h2 {
+      text-align: start;
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #394b50;
+      margin: 0 0 21px 0;
+    }
+    & p {
+      font-size: 13px;
+      line-height: 22px;
+      font-weight: 400;
+      color: #7b7b7b;
+    }
+    & li {
+      display: inline-block;
+      width: 555px;
+      height: 95px;
+      padding: 3px 3px 3px 70px;
+      &:nth-child(1) {
+        margin: 0 106px 79px 0;
+      }
+    }
+
+    .ourserveces-title__list__1 {
+      & li {
+        &:nth-child(1) {
+          background: url(../img/oclock.png) no-repeat;
+        }
+        &:nth-child(2) {
+          background: url(../img/settings.png) no-repeat;
+        }
+      }
+    }
+    .ourserveces-title__list__2 {
+      & li {
+        &:nth-child(1) {
+          background: url(../img/head_student.png) no-repeat;
+        }
+        &:nth-child(2) {
+          background: url(../img/rocket.png) no-repeat;
+        }
+        text-align: start;
+      }
+    }
+    .ourserveces-title__list__3 {
+      & li {
+        &:nth-child(1) {
+          background: url(../img/simbol_hz.png) no-repeat;
+        }
+        &:nth-child(2) {
+          background: url(../img/dolar.png) no-repeat;
+        }
+      }
+    }
+  }
+}
+.about_us {
+  position: absolute;
+  width: 1700px;
+  height: 623px;
+  background: #ffc155;
+  .about_us__image {
+    display: inline-block;
+    width: 850px;
+    height: 623px;
+    background: url(../img/abous_us_img.png) left no-repeat;
+  }
+  .about_us__head {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    position: absolute;
+    top: 164px;
+    left: 931px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: -0.025em;
+    z-index: 100;
+  }
+  .about_us__text {
+    display: inline-block;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    position: absolute;
+    top: 231px;
+    left: 930px;
+    width: 508px;
+    height: 157px;
+    padding: 2px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+  }
+  .about_us__button {
+    display: inline-block;
+    position: absolute;
+    top: 420px;
+    left: 930px;
+    @extend %button;
+    box-shadow: 0 0 3px 0.2px black;
   }
 }
