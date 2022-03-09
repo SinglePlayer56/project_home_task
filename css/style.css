@@ -86,7 +86,7 @@ h6 {
   font-weight: 400;
 }
 
-.title .input-inform .input-inform__form .input-inform__form__username, .title .input-inform .input-inform__form .input-inform__form__email, .title .input-inform .input-inform__form .input-inform__form__number {
+.input-title .input-inform .input-inform__form .input-inform__form__username, .input-title .input-inform .input-inform__form .input-inform__form__email, .input-title .input-inform .input-inform__form .input-inform__form__number {
   width: 281px;
   height: 46px;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -96,39 +96,39 @@ h6 {
   border-radius: 2px;
 }
 
-.title .input-inform .input-inform__form .input-inform__form__username::-webkit-input-placeholder, .title .input-inform .input-inform__form .input-inform__form__email::-webkit-input-placeholder, .title .input-inform .input-inform__form .input-inform__form__number::-webkit-input-placeholder {
+.input-title .input-inform .input-inform__form .input-inform__form__username::-webkit-input-placeholder, .input-title .input-inform .input-inform__form .input-inform__form__email::-webkit-input-placeholder, .input-title .input-inform .input-inform__form .input-inform__form__number::-webkit-input-placeholder {
   font-size: 13px;
   color: #a9a9a9;
 }
 
-.title .input-inform .input-inform__form .input-inform__form__username:-ms-input-placeholder, .title .input-inform .input-inform__form .input-inform__form__email:-ms-input-placeholder, .title .input-inform .input-inform__form .input-inform__form__number:-ms-input-placeholder {
+.input-title .input-inform .input-inform__form .input-inform__form__username:-ms-input-placeholder, .input-title .input-inform .input-inform__form .input-inform__form__email:-ms-input-placeholder, .input-title .input-inform .input-inform__form .input-inform__form__number:-ms-input-placeholder {
   font-size: 13px;
   color: #a9a9a9;
 }
 
-.title .input-inform .input-inform__form .input-inform__form__username::-ms-input-placeholder, .title .input-inform .input-inform__form .input-inform__form__email::-ms-input-placeholder, .title .input-inform .input-inform__form .input-inform__form__number::-ms-input-placeholder {
+.input-title .input-inform .input-inform__form .input-inform__form__username::-ms-input-placeholder, .input-title .input-inform .input-inform__form .input-inform__form__email::-ms-input-placeholder, .input-title .input-inform .input-inform__form .input-inform__form__number::-ms-input-placeholder {
   font-size: 13px;
   color: #a9a9a9;
 }
 
-.title .input-inform .input-inform__form .input-inform__form__username::placeholder, .title .input-inform .input-inform__form .input-inform__form__email::placeholder, .title .input-inform .input-inform__form .input-inform__form__number::placeholder {
+.input-title .input-inform .input-inform__form .input-inform__form__username::placeholder, .input-title .input-inform .input-inform__form .input-inform__form__email::placeholder, .input-title .input-inform .input-inform__form .input-inform__form__number::placeholder {
   font-size: 13px;
   color: #a9a9a9;
 }
 
-.title .input-inform .input-inform__form .input-inform__form__username {
+.input-title .input-inform .input-inform__form .input-inform__form__username {
   background: #fff url(../img/man_icon.png) 15px 15px no-repeat;
 }
 
-.title .input-inform .input-inform__form .input-inform__form__email {
+.input-title .input-inform .input-inform__form .input-inform__form__email {
   background: #fff url(../img/email_icon.png) 15px 15px no-repeat;
 }
 
-.title .input-inform .input-inform__form .input-inform__form__number {
+.input-title .input-inform .input-inform__form .input-inform__form__number {
   background: #fff url(../img/phone_icon.png) 15px 15px no-repeat;
 }
 
-.title .input-inform .input-inform__form .input-inform__form__button {
+.input-title .input-inform .input-inform__form .input-inform__form__button {
   background: #ffbb42;
   text-transform: uppercase;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -140,11 +140,11 @@ h6 {
   border-radius: 2px;
 }
 
-.title .input-inform .input-inform__form .input-inform__form__button:hover {
+.input-title .input-inform .input-inform__form .input-inform__form__button:hover {
   background: #ffba42dc;
 }
 
-.title .input-inform .input-inform__form .input-inform__form__button:active {
+.input-title .input-inform .input-inform__form .input-inform__form__button:active {
   background: #ffba42a1;
 }
 
@@ -195,23 +195,23 @@ h6 {
   background: #ffba42a1;
 }
 
-.title {
+.input-title {
   position: relative;
 }
 
-.title .input-inform {
+.input-title .input-inform {
   width: 1700px;
   height: 589px;
   background: #709dca;
 }
 
-.title .input-inform .input-inform__text {
+.input-title .input-inform .input-inform__text {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   position: relative;
   top: 110px;
 }
 
-.title .input-inform .input-inform__text .input-inform__text__p1 {
+.input-title .input-inform .input-inform__text .input-inform__text__p1 {
   text-align: center;
   font-size: 34px;
   font-weight: 900;
@@ -221,16 +221,63 @@ h6 {
   margin: 0 0 5px 0;
 }
 
-.title .input-inform .input-inform__text .input-inform__text__p2 {
+.input-title .input-inform .input-inform__text .input-inform__text__p2 {
   text-align: center;
   font-size: 16px;
   font-weight: 300;
   color: #fff;
 }
 
-.title .input-inform .input-inform__form {
+.input-title .input-inform .input-inform__form {
   width: 1370px;
   position: absolute;
   top: 196px;
   left: 306px;
+}
+
+.input-title .macbook {
+  width: 647px;
+  height: 343px;
+  position: absolute;
+  top: 309px;
+  left: 527px;
+  background: url(../img/macbook.png) 50% no-repeat;
+  z-index: 10;
+}
+
+.input-title .macbook .macbook__display {
+  width: 445px;
+  height: 264px;
+  position: relative;
+  top: 18px;
+  left: 102px;
+  background: url(../img/man_for_display.png) 50% no-repeat;
+}
+
+.ourservices-title {
+  position: relative;
+  width: 1370px;
+  height: 6100px;
+}
+
+.ourservices-title .macbook__trigger {
+  position: absolute;
+  display: block;
+  top: 83px;
+  left: 820px;
+}
+
+.ourservices-title .macbook__trigger li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 16px;
+  height: 15px;
+  border: 3px solid #dedfe0;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.ourservices-title .macbook__trigger li:hover {
+  border: 3px solid #1ca8dd;
 }

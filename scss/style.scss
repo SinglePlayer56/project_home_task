@@ -81,7 +81,7 @@
     }
   }
 }
-.title {
+.input-title {
   position: relative;
   .input-inform {
     width: 1700px;
@@ -128,6 +128,46 @@
       }
       .input-inform__form__button {
         @extend %button;
+      }
+    }
+  }
+  .macbook {
+    width: 647px;
+    height: 343px;
+    position: absolute;
+    top: 309px;
+    left: 527px;
+    background: url(../img/macbook.png) 50% no-repeat;
+    z-index: 10;
+    .macbook__display {
+      width: 445px;
+      height: 264px;
+      position: relative;
+      top: 18px;
+      left: 102px;
+      background: url(../img/man_for_display.png) 50% no-repeat;
+    }
+  }
+}
+
+.ourservices-title {
+  position: relative;
+  width: 1370px;
+  height: 6100px;
+  .macbook__trigger {
+    position: absolute;
+    display: block;
+    top: 83px;
+    left: 820px;
+    & li {
+      display: inline-flex;
+      width: 16px;
+      height: 15px;
+      border: 3px solid #dedfe0;
+      border-radius: 50%;
+      margin: 5px;
+      &:hover {
+        border: 3px solid #1ca8dd;
       }
     }
   }
