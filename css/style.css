@@ -173,6 +173,9 @@ h6 {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 13.5px;
   text-transform: uppercase;
+}
+
+.header .header__menu a {
   color: #868686;
 }
 
