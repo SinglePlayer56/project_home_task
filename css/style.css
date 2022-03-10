@@ -128,7 +128,7 @@ h6 {
   background: #fff url(../img/phone_icon.png) 15px 15px no-repeat;
 }
 
-.input-title .input-inform .input-inform__form .input-inform__form__button, .about_us .about_us__button {
+.input-title .input-inform .input-inform__form .input-inform__form__button, .about_us .about_us__button, .choose-your-price .price-plan__button {
   background: #ffbb42;
   text-transform: uppercase;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -140,11 +140,11 @@ h6 {
   border-radius: 2px;
 }
 
-.input-title .input-inform .input-inform__form .input-inform__form__button:hover, .about_us .about_us__button:hover {
+.input-title .input-inform .input-inform__form .input-inform__form__button:hover, .about_us .about_us__button:hover, .choose-your-price .price-plan__button:hover {
   background: #ffaf24;
 }
 
-.input-title .input-inform .input-inform__form .input-inform__form__button:active, .about_us .about_us__button:active {
+.input-title .input-inform .input-inform__form .input-inform__form__button:active, .about_us .about_us__button:active, .choose-your-price .price-plan__button:active {
   background: #ffcc75;
 }
 
@@ -382,7 +382,7 @@ h6 {
 }
 
 .about_us {
-  position: absolute;
+  position: relative;
   width: 1700px;
   height: 623px;
   background: #ffc155;
@@ -435,4 +435,144 @@ h6 {
 .about_us .about_us__button:active {
   -webkit-box-shadow: inset 0 0 3px 0.2px black;
           box-shadow: inset 0 0 3px 0.2px black;
+}
+
+.choose-your-price {
+  position: relative;
+  width: 1700px;
+  height: 898px;
+  background: #e7edf3;
+}
+
+.choose-your-price .choose-your-price__title {
+  position: absolute;
+  top: 137px;
+  left: 616px;
+  width: 500px;
+  height: 43px;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  text-align: center;
+}
+
+.choose-your-price .choose-your-price__title .choose-your-price__title__p1 {
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.025em;
+  color: #394b50;
+  margin: 0 0 3px 0;
+}
+
+.choose-your-price .choose-your-price__title .choose-your-price__title__p2 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #75888d;
+}
+
+.choose-your-price .price-plan__head {
+  position: absolute;
+  top: 57px;
+  left: 123px;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #818b95;
+}
+
+.choose-your-price .price-plan__price {
+  position: absolute;
+  top: 105px;
+  left: 148px;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  text-align: center;
+}
+
+.choose-your-price .price-plan__price .price {
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffbb42;
+}
+
+.choose-your-price .price-plan__price .price::before {
+  content: '\0024';
+  vertical-align: super;
+  font-size: 40px;
+}
+
+.choose-your-price .price-plan__price .foot {
+  font-size: 13.5px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #b5bbc1;
+}
+
+.choose-your-price .price-plan__privilege {
+  position: absolute;
+  top: 209px;
+  left: 30px;
+  font-size: 13.5px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #b5bbc1;
+  text-align: center;
+}
+
+.choose-your-price .price-plan__privilege li {
+  display: block;
+  border-top: 1px solid #e2e9f0;
+  padding: 13px 80px;
+}
+
+.choose-your-price .price-plan__button {
+  position: absolute;
+  top: 351px;
+  left: 105px;
+}
+
+.choose-your-price .basic-plan {
+  position: absolute;
+  top: 263px;
+  left: 265px;
+  width: 391px;
+  height: 441px;
+  background: #fff;
+  border: 1px solid #ccd5df;
+  border-radius: 2px;
+}
+
+.choose-your-price .premium-plan {
+  position: absolute;
+  top: 233px;
+  left: 653px;
+  width: 395px;
+  height: 501px;
+  background: #709dca;
+  border: 1px solid #ccd5df;
+  border-radius: 2px;
+  z-index: 10;
+}
+
+.choose-your-price .premium-plan .price-style_2 {
+  position: relative;
+  top: 30px;
+  left: 2px;
+}
+
+.choose-your-price .premium-plan .price-plan__head,
+.choose-your-price .premium-plan .price,
+.choose-your-price .premium-plan .foot,
+.choose-your-price .premium-plan .price-plan__privilege {
+  color: #fff;
+}
+
+.choose-your-price .golden-plan {
+  position: absolute;
+  top: 263px;
+  left: 1044px;
+  width: 391px;
+  height: 441px;
+  background: #fff;
+  border: 1px solid #ccd5df;
+  border-radius: 2px;
 }
